@@ -58,4 +58,3 @@ kira = st.slider("Kira (₺)", min_value=5000, max_value=15000, step=1000, value
 if st.button("Hesapla"):
     ev_sayisi, kira_getirisi = senaryo_hesapla(birikim_miktari, kredi_faizi, kredi_suresi, pesinat_orani, ev_fiyati, kira)
     st.success(f"Hakan'ın 65 yaşına geldiğinde {ev_sayisi} adet evi olacak ve toplam kira getirisi {kira_getirisi} ₺ olacaktır.")
-
